@@ -1,0 +1,25 @@
+* {
+  background-color: #f5f5dc;
+  color: #556b2f;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+
+header {
+  text-align: center;
+}
+body {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  border-style: dotted;
+  border-color: blue;
+  background-color: #9acd32;
+}
+.col-sm-4 {
+  text-align: center;
+}

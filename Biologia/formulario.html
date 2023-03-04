@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name=" viewport " content=" width=device-width, initial-scale=1.0 " />
+    <title>Consultoria Ambiental</title>
+    <meta
+      name=" palavras-chave "
+      content=" consultoria ambiental, flora, fauna, css "
+    />
+    <link rel="icon" href="logo.png" type="image/png" />
+    <meta name=" Consutoria Todeschini " content=" todeschiniconsultoria " />
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1>TODESCHINI CONSULTORIA AMBIENTAL ESPECIALIZADA LTDA</h1>
+      <h3>SERVIÇOS EM BIOLOGIA</h3>
+    </header>
+
+    <nav id="paginas">
+      <a href="index.html">HOME</a>
+      <a href="servicos.html">SERVIÇOS</a>
+      <a href="formulario.html">FORMULÁRIO</a>
+    </nav>
+    <hr />
+
+    <div id="form">
+      <h1>Tire suas dúvidas:</h1>
+      <form>
+        <fieldset>
+          <label>Nome:</label>
+          <input type="text" name="nome" placeholder="Nome Completo" required />
+          <br />
+          <br />
+          <label for="exampleFormControlInput1">Email: </label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="username@email.com"
+          />
+          <br />
+          <br />
+          <label>Cidade:</label>
+          <select name="cidade">
+            <option value="inicio_tres">Cidade:</option>
+            <option value="poa">Porto Alegre</option>
+            <option value="viamao">Viamão</option>
+            <option value="gravatai">Gravatai</option>
+            <option value="alvorada">Alvorada</option>
+            <option value="sapucaia">Sapucaia do Sul</option>
+            <option value="canoas">Canoas</option>
+            <option value="eldorado">Eldorado do Sul</option>
+            <option value="novohamburgo">Novo Hamburgo</option>
+          </select>
+          <br />
+          <br />
+          <label>Mensagem:</label>
+          <textarea placeholder="Digite sua mensagem" minlength="20"></textarea>
+          <br /><br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" name="Limpar" value="Limpar" />
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <h1><i>Todeschini Consultoria ambiental</i></h1>
+      <h2>Porto Alegre, Rio grande do Sul</h2>
+    </footer>
+  </body>
+</html>
